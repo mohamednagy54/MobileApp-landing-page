@@ -739,6 +739,10 @@ header label {
 
 
 @media (max-width:768px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
     header label {
 
         visibility: visible;
